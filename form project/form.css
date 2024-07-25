@@ -1,0 +1,113 @@
+.box{
+	
+	margin:auto;
+	background-image:url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg);
+	background-size:cover;
+	width:100%;
+	height:100%;
+}
+.box1{
+	max-width:1320px;
+	min-width:300px;
+	margin:auto;
+	width:500px;
+	height:500px;
+	border:2px solid black;
+	position:absolute;
+	left:50%;
+	top:50%;
+	border-radius:20px;
+	transform:translate(-50%, -50%);
+	backdrop-filter:blur(10px);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	
+}
+h1{
+	color:white;
+	font-size:50px;
+}
+
+
+
+.email{
+	width:200px;
+	height:30px;
+	margin-top:5%;
+	margin-left:50%;
+	backdrop-filter:blur(10px);
+		transform:translate(-50%, -50%);
+		border:2px solid black;
+		color:white;
+	line-height:25px;
+	border-radius:30px;
+	background:transparent;
+}
+
+.ri-user-fill{
+	position:relative;
+	top:-14px;
+	left:-128px;
+}
+
+
+
+.password{
+	width:200px;
+	height:30px;
+	margin-top:5%;
+	margin-left:50%;
+	backdrop-filter:blur(10px);
+	color:white;
+		transform:translate(-50%, -50%);
+		border:2px solid black;
+	line-height:25px;
+	border-radius:30px;
+	background:transparent;
+}
+
+.ri-lock-fill{
+	position:relative;
+	top:-14px;
+	left:-128px;
+}
+
+.checkbox{
+	margin-left:8%;
+	margin-top:10px;
+	color:white;
+	
+}
+ 
+.forgot{ 
+	 color:white; 
+	 margin-left:70%; 
+	 margin-top:-30px;
+	 
+ }
+ 
+.login1{
+	width:75%;
+	 height:45px;
+	margin-top:5%;
+	margin-left:50%;
+	backdrop-filter:blur(10px);
+		transform:translate(-50%, -50%);
+		border:1px solid black;
+	border-radius:30px;
+	font-size:20px;
+	background-color:#8c7373;
+ }
+ 
+.login1:hover{
+	width:90%;
+	background-color:#ffcccc;
+	border-radius:80px 80px 80px 80px;
+}
+ 
+ .last{
+	 color:white;
+	 margin-left:30%;
+}
+.last1{
+	color:white;
+}
