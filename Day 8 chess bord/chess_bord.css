@@ -1,0 +1,29 @@
+.clear{
+		clear:both;
+}
+
+.container{
+			border:10px groove;
+			float:left;
+			border-color:gainsboro;
+}
+
+.box1{
+	width:100px;
+	height:100px;
+	background-color:gainsboro;
+	float:left;
+	font-size:40px;	
+    line-height:100px;
+    text-align:center;	
+}
+.box2{
+	width:100px;
+	height:100px;
+	background-color:black;
+	float:left;
+	color:white;
+	font-size:40px;
+	line-height:100px;
+	text-align:center;
+}

@@ -1,0 +1,33 @@
+.box1{
+	max-width:1300px;
+	min-width:370px;
+	margin:auto;
+	height:1200px;
+	border:2px solid black;
+	font-size:20px;
+}
+
+p:first-letter{
+	 font-size:30px;
+	 color:red;
+}
+
+
+
+h1{
+	font-size:2vw;
+	background-color:lightgreen;
+}
+
+li:first-child{
+	color:red;
+}
+
+li:last-child{
+	color:red;
+}
+
+li:nth-child(3n){
+	background-color:blue;
+}
+			
