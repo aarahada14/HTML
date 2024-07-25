@@ -1,0 +1,76 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+		
+
+
+.box{
+max-width:1320px;
+	border:1px solid black;
+	margin:auto;
+	
+}
+
+.Links{
+	width:20%;
+	display:inline-block;
+	
+}
+
+.ri-home-heart-line{
+	font-size:40px;
+	
+}
+
+.ri-search-eye-line{
+	font-size:40px;
+	margin-left:20px;
+}
+
+
+.box2{
+	width:49%;
+	height:70px;
+	display:inline-block;
+	size:20px;
+}
+
+.home2{
+	border:1px solid black;
+	width:120px;
+	height:30px;
+	overflow:hidden;
+	text-align:center;
+	position:absolute;
+	top:20px;
+
+}
+.home2 p{
+	color:black;
+	background-color:gainsboro;
+	margin:5px;
+	border-bottom:1px solid gray;
+	border-radius:5px;
+}
+
+.home2 p:hover{
+	background:black;
+	color:white;
+}
+
+.home2:hover{
+	height:130px;
+	transition: height 1s linear;
+}
+
+.ri-headphone-fill{
+	font-size:40px;
+	margin-left:90%;
+}
+
+.ri-settings-3-fill{
+	font-size:40px;
+	margin-left:90%;
+}

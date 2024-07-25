@@ -1,0 +1,49 @@
+.box{
+	height:300px;
+	width:300px;
+	background-color:pink;
+	position:absolute;
+	z-index:-1;
+	
+	
+}
+h1{
+	z-index:2;
+	display:inline;
+	
+}
+p{
+	font-size:30px;
+	
+}
+
+.box1{
+	height:300px;
+	width:300px;
+	background-color:blue;
+	top:500px;
+	position:absolute;
+	z-index:1;
+}
+	
+ul{
+	margin-left:500px;
+	font-size:30px;
+	list-style:none;
+	
+}
+
+li:before{
+		content:"\214F";
+}
+
+li:after{
+		content:"$";
+}
+
+.img::after{
+	border:1px solid black;
+	width:100px;
+	height:100px;
+	
+}
