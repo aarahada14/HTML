@@ -1,0 +1,53 @@
+body{
+	perspective:1000px;
+}
+
+button{
+	height:50px;
+	width:400px;
+	font-size:30px;
+	margin:30px 30%;
+	background-color:black;
+	color:white;
+	border:1px solid yellow;
+	
+}
+
+button:hover{
+	background-color:white;
+	color:black;
+	border:1px solid black;
+}
+
+div{
+	margin:30px 20%;
+	width:200px;
+	height:200px;
+	background-color:pink;
+	color:blue;
+	
+}
+
+.box1:hover{
+	transform:rotate(45deg);
+}
+
+.box2:hover{
+	transform:rotatex(45deg);
+}
+
+.box3:hover{
+	transform:rotatey(45deg);
+}
+
+.box4:hover{
+	transform:scalex(3)scaley(1);
+}
+
+.box5:hover{
+	transform:translatez(100px);
+}
+
+.box6:hover{
+	transform:skewx (40deg) skewy(30deg);
+}

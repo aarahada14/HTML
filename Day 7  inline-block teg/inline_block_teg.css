@@ -1,0 +1,31 @@
+
+
+p{
+	font-size:20px;
+	background-color:green;
+	display:block;
+	padding:10px 20px;
+}
+
+.box2{
+	background-color:skyblue;
+	display:inline-block;
+	padding:10% 10%;
+	
+}
+.box3{
+	background-color:yellow;
+	display:inline-block;
+	padding:10% 10%;
+}
+.box4{
+	background-color:orange;
+	display:inline-block;
+	padding:10% 10%;
+}
+
+.box5{
+	background-color:blue;
+	display:inline-block;
+	padding:10% 9%;
+}
